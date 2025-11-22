@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+Line from main
+||||||| 1730184
+=======
+Line from stories
+>>>>>>> stories

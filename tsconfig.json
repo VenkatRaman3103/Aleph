@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react-jsx",
+        "strict": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "allowSyntheticDefaultImports": true,
+        "allowImportingTsExtensions": true,
+        "types": ["vitest", "node"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "vite.config.ts",
+        "eslint.config.js",
+         "src/**/*.test.tsx",
+         "src/**/*.test.ts"   
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

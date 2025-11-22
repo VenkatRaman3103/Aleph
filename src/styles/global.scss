@@ -1,0 +1,30 @@
+/* gutter */
+.gutter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .content {
+        margin-top: 50px;
+        width: var(--cotent-width);
+    }
+
+}
+
+
+
+.heading {
+    color: white;
+}
+
+.description {
+    color: var(--secondary-font-color);
+}
+
+
+h1,
+h2,
+p {
+    margin: 0;
+}
